@@ -11,6 +11,8 @@ package com.mycompany.gato;
 public class Gato {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Gatos g=new Gatos();
+        
+        g.imprimirTablero();
     }
 }
